@@ -4,7 +4,7 @@ import string
 a= "Ha keresunk valamit, sose talaljuk meg. Akkor talaljuk meg, amikor nem keressuk. Gayle Forman"
 a="I9	jfqfrvml~w9m9nhu+	rprf~u9m9mivj	lff/~Bjlns~u9m9mivj	lff-~bljjpq	mfl	jfqfrttl-	Fbxmd	Epqn9o"
 
-db = string.printable
+db = string.ascii_letters
 b=""
 a_chars = list(a)
 #print(db)
